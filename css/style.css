@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Inputs area */
+.inputs {
+    padding: 40px;
+    text-align: center;
+}
+.inputs input {
+    padding: 17px 17px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 400px;
+}
+.inputs button {
+    padding: 17px 17px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Todos area */
+.todos-container {
+    width: 70%;
+    margin: auto;
+    background-color: #F5F7F7;
+    padding: 25px;
+}
+.todos-list {
+    list-style-type: none;
+}
+.todos-list .todo {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.todos-list .todo .actions span {
+    cursor: pointer;
+}
+.todos-list .todo .done {
+    text-decoration: line-through;
+}
+
+.text-filter {
+    margin-top: 20px;
+}
